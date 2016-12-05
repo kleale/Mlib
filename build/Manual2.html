@@ -1,0 +1,1098 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>ManualsLib - Makes it easy to find manuals online!</title>
+	
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+    <meta content="Search through 700.000 manuals online &amp; and download pdf manuals." name="Description">
+    <meta content=" manuals, instruction manuals, user manuals, service manuals, user guides, pdf manuals, owners manuals, installation guides" name="Keywords">
+	<meta name="author" content="ManualsLib">
+	
+	<link rel="icon" type="image/png" href="favicon.png" />
+	<link rel="apple-touch-icon" href="apple-touch-favicon.png"/>
+
+    <!-- styles -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link type="text/css" rel="stylesheet" href="js/fancybox2/jquery.fancybox.css">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,300,700' rel='stylesheet' type='text/css'>
+	
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	  <script type='text/javascript' src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.7.1/modernizr.min.js"></script>
+	  <script type='text/javascript' src="js/css3-mediaqueries.js"></script>  
+	  <link href="css/bootstrap-ie7.css" rel="stylesheet">
+   <![endif]-->
+		
+
+</head>
+
+<body class="manualpage">
+
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<!--
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4d88808560028741"></script>
+-->
+
+
+	<div id="wrap">
+		<div class="headerwr"></div>
+		<header>
+			<nav class="navbar topline" role="navigation">
+			  <div class="container-fluid">
+					
+					<div class="userpanel">					 
+						<div class="userin dropdown">	
+							<a href="" class="dropdown-toggle btn" id="dropdownMenu1" data-toggle="dropdown">
+								<i class="fa fa-user fa-fw"></i> <span>AlexAlexAlexAlex</span><i class="caret"></i>
+							</a>
+							<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+								
+								<li role="presentation"><a role="menuitem" tabindex="-1" href="#"><i class="fa fa-user fa-fw pull-right"></i> Profile</a></li>
+								<li role="presentation"><a role="menuitem" tabindex="-1" href="#"><i class="fa fa-file-text-o fa-fw pull-right"></i> My manuals</a></li>
+								<li role="presentation"><a role="menuitem" tabindex="-1" href="#"><i class="fa fa-cog fa-fw pull-right"></i> Settings</a></li>
+								<li role="presentation" class="divider"></li>
+								<li role="presentation"><a role="menuitem" tabindex="-1" href="#"><i class="fa fa-power-off fa-fw pull-right"></i> Log out</a></li>
+							</ul>
+						</div>
+						<div class="userbuttons">
+							<!--<a class="btn btn-primary" href="#"><i class="fa fa-power-off"></i> <span>Log out</span></a> &nbsp; -->
+							<a data-target="#MYupload" data-toggle="modal" class="btn btn-success" href="#" title="Upload Manual"><i class="fa fa-cloud-upload"></i> <span>Upload</span></a>
+						</div>
+					</div>
+				
+					<div class="navbar-header">
+						<a class="navbar-brand" href="#"><img alt="manualslib" src="img/manualslib.png" /></a>
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs">
+							<!--
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							-->
+							<i class="fa fa-search"></i> 
+						</button>
+					</div>
+					<div class="collapse navbar-collapse cleardfix" id="bs">
+								 <form class="navbar-form mainsearch" role="search">
+									<div class="form-group">
+									  <input type="text" class="form-control" placeholder="Search manual in Library" id="typehead">
+									  <button type="submit" class="btn btn-lib-search"><span class="fa fa-search"></span></button>
+									</div>
+								 </form>
+					</div><!-- /.navbar-collapse -->
+			  </div><!-- /.container-fluid -->
+			</nav>
+			
+			<!--<div class="controlpanel clearfix" data-spy="affix" data-offset-top="65" data-offset-bottom="200">-->
+			<div class="controlpanel" id="caffix">
+				<div class="container-fluid">
+					
+					<div class="searchinmanual"><!-- active -->
+                        <form method="post" action="">
+                            <input type="text" class="form-control" id="term" placeholder="Search in this manual">
+							<a href="#" id="fulltext-search" class="seacher"><i class="fa fa-search"></i></a>
+                        </form>
+					</div>
+					
+					<div class="searchinmanualblock" style="display: none;"> <div class="srez">
+							40 results for: <b>brake</b>
+							<a title="Close search" href="#" class="seacher_close">Close search <i class="fa fa-times"></i></a>
+					</div>
+					<div class="sbscroller scroll-pane">
+						<div class="sinner">
+							<a class="slink" id="result-no-0" href="/manual/766219/Citroen-C4.html?page=5&amp;term=brake"> belts Airbags 9 - DRIVING 150 ? 183 Electric parking <strong>brake</strong> Manual parking <strong>brake</strong> Manual gearbox Electronic gearbox Automatic gearbox Hill  <u>p. 5</u></a>
+
+                            <a class="slink" id="result-no-1" href="/manual/766219/Citroen-C4.html?page=10&amp;term=brake&amp;selected=1"> ? 289 eMyWay satellite navigation system ? 235 Electric parking <strong>brake</strong> It combines the functions of auto- matic application on switching  <u>p. 10</u></a>
+
+                            <a class="slink" id="result-no-2" href="/manual/766219/Citroen-C4.html?page=12&amp;term=brake&amp;selected=2"> Heated seat control. 10. Lumbar massage control. 11. Electric parking <strong>brake</strong>. 12. Gear lever, electronic gearbox. 13. Large multifunctional storage  <u>p. 12</u></a>
+
+                            <a class="slink" id="result-no-3" href="/manual/766219/Citroen-C4.html?page=13&amp;term=brake&amp;selected=3"> 7. Gear lever, manual or automatic gearbox. 8. Manual parking <strong>brake</strong> 9. Large open storage or front armrest. reading 11  <u>p. 13</u></a>
+
+                            <a class="slink" id="result-no-4" href="/manual/766219/Citroen-C4.html?page=22&amp;term=brake&amp;selected=4">Electric parking <strong>brake</strong> Manual application / release Manual application of the parking brake  <u>p. 22</u></a>
+
+                            <a class="slink" id="result-no-5" href="/manual/766219/Citroen-C4.html?page=22&amp;term=brake&amp;selected=5"> . With the ignition on, manual release of the parking <strong>brake</strong> is possible by press- ing the <strong>brake</strong> pedal and pulling  <u>p. 22</u></a>
+
+                            <a class="slink" id="result-no-6" href="/manual/766219/Citroen-C4.html?page=22&amp;term=brake&amp;selected=6"> driver's door there is an audible warning; apply the parking <strong>brake</strong> manually. Do not leave a child alone inside the vehicle  <u>p. 22</u></a>
+
+                            <a class="slink" id="result-no-7" href="/manual/766219/Citroen-C4.html?page=22&amp;term=brake&amp;selected=7"> with the ignition on; they might release the parking <strong>brake</strong>. 20 D R I V I N G S A  <u>p. 22</u></a>
+
+                            <a class="slink" id="result-no-8" href="/manual/766219/Citroen-C4.html?page=22&amp;term=brake&amp;selected=8"> and let the clutch pedal up (manual gearbox), the parking <strong>brake</strong> is released automatically and progressively as you move off. With  <u>p. 22</u></a>
+
+                            <a class="slink" id="result-no-9" href="/manual/766219/Citroen-C4.html?page=22&amp;term=brake&amp;selected=9"> vehicle at rest, on switching off the engine the parking <strong>brake</strong> is applied automatically. If this warning lamp is on in  <u>p. 22</u></a>
+
+                            <a class="slink" id="result-no-10" href="/manual/766219/Citroen-C4.html?page=22&amp;term=brake&amp;selected=10"> release is de- activated ; apply and release the parking <strong>brake</strong> manually. Before leaving the ve- hicle, check that the brake  <u>p. 22</u></a>
+
+                            <a class="slink" id="result-no-11" href="/manual/766219/Citroen-C4.html?page=23&amp;term=brake&amp;selected=11"> mode. Moving off ? Select position N and press the <strong>brake</strong> pedal ? rmly while starting the engine. ? Engage ?  <u>p. 23</u></a>
+
+                            <a class="slink" id="result-no-12" href="/manual/766219/Citroen-C4.html?page=23&amp;term=brake&amp;selected=12"> lever 1 towards position R . ? Release the parking <strong>brake</strong>. ? Take your foot off the <strong>brake</strong> pedal then accelerate.  <u>p. 23</u></a>
+
+                            <a class="slink" id="result-no-13" href="/manual/766219/Citroen-C4.html?page=24&amp;term=brake&amp;selected=13"> opera- tion. Moving off ? With your foot on the <strong>brake</strong> pedal, select position P or N . ? Start the  <u>p. 24</u></a>
+
+                            <a class="slink" id="result-no-14" href="/manual/766219/Citroen-C4.html?page=24&amp;term=brake&amp;selected=14"> D or M . ? Take your foot off the <strong>brake</strong> pedal, then accelerate away. ? 161 Hill start assist Your  <u>p. 24</u></a>
+
+                            <a class="slink" id="result-no-15" href="/manual/766219/Citroen-C4.html?page=24&amp;term=brake&amp;selected=15"> mo- mentarily, the time to move your foot from the <strong>brake</strong> to the accelerator, to help with moving off on a  <u>p. 24</u></a>
+
+                            <a class="slink" id="result-no-16" href="/manual/766219/Citroen-C4.html?page=24&amp;term=brake&amp;selected=16"> vehicle is completely station- ary with your foot on the <strong>brake</strong> pedal, - certain conditions of gradient are met, - the  <u>p. 24</u></a>
+
+                            <a class="slink" id="result-no-17" href="/manual/766219/Citroen-C4.html?page=25&amp;term=brake&amp;selected=17"> speeds below 5 mph (8 km/h), when you press the <strong>brake</strong> pedal or you put the gear lever in position N  <u>p. 25</u></a>
+
+                            <a class="slink" id="result-no-18" href="/manual/766219/Citroen-C4.html?page=25&amp;term=brake&amp;selected=18"> in position A or M , when you release the <strong>brake</strong> pedal, ? or gear lever in position N and brake  <u>p. 25</u></a>
+
+                            <a class="slink" id="result-no-19" href="/manual/766219/Citroen-C4.html?page=28&amp;term=brake&amp;selected=19"> distance between ve- hicles, use engine braking rather than the <strong>brake</strong> pedal, and press the accel- erator progressively. These practices contribute  <u>p. 28</u></a>
+
+                            <a class="slink" id="result-no-20" href="/manual/766219/Citroen-C4.html?page=35&amp;term=brake&amp;selected=20"> warning lamp. ? xed, associated with the electric Braking parking <strong>brake</strong> + warning lamp, <strong>brake</strong> is released. + ? xed, associated  <u>p. 35</u></a>
+
+                            <a class="slink" id="result-no-21" href="/manual/766219/Citroen-C4.html?page=35&amp;term=brake&amp;selected=21"> system has a malfunction fault. if the parking The electronic <strong>brake</strong> force distribution (EBFD) system has a fault. lamps. Cause You  <u>p. 35</u></a>
+
+                            <a class="slink" id="result-no-22" href="/manual/766219/Citroen-C4.html?page=35&amp;term=brake&amp;selected=22"> as it is safe to do so. Top up with <strong>brake</strong> ? uid recommended by CITROEN. If the problem persists, have  <u>p. 35</u></a>
+
+                            <a class="slink" id="result-no-23" href="/manual/766219/Citroen-C4.html?page=36&amp;term=brake&amp;selected=23">Warning lamp 1 Electric parking <strong>brake</strong> Electric parking <strong>brake</strong> + malfunction Door(s) open Seat belt not fastened/ unfastened *  <u>p. 36</u></a>
+
+                            <a class="slink" id="result-no-24" href="/manual/766219/Citroen-C4.html?page=36&amp;term=brake&amp;selected=24"> The application or release of ? ashing. the electric parking <strong>brake</strong> was interrupted. The electric parking <strong>brake</strong> ? xed. has a  <u>p. 36</u></a>
+
+                            <a class="slink" id="result-no-25" href="/manual/766219/Citroen-C4.html?page=36&amp;term=brake&amp;selected=25"> dealer or a quali? ed workshop without delay. The parking <strong>brake</strong> can be released manually using the emergency release procedure. For  <u>p. 36</u></a>
+
+                            <a class="slink" id="result-no-26" href="/manual/766219/Citroen-C4.html?page=36&amp;term=brake&amp;selected=26"> more information on the electric parking <strong>brake</strong>, refer to the "Driving" section. Close the door or boot.  <u>p. 36</u></a>
+
+                            <a class="slink" id="result-no-27" href="/manual/766219/Citroen-C4.html?page=37&amp;term=brake&amp;selected=27"> by a message and an audible signal. Foot on the <strong>brake</strong> pedal M O N I T O R I N  <u>p. 37</u></a>
+
+                            <a class="slink" id="result-no-28" href="/manual/766219/Citroen-C4.html?page=37&amp;term=brake&amp;selected=28"> for which there is no speci? c warning lamp. The <strong>brake</strong> pedal is not ? xed. pressed. With an electronic gearbox,  <u>p. 37</u></a>
+
+                            <a class="slink" id="result-no-29" href="/manual/766219/Citroen-C4.html?page=37&amp;term=brake&amp;selected=29"> a quali? ed workshop. With an electronic gearbox, press the <strong>brake</strong> pedal to start the engine (lever in position N ).  <u>p. 37</u></a>
+
+                            <a class="slink" id="result-no-30" href="/manual/766219/Citroen-C4.html?page=37&amp;term=brake&amp;selected=30"> If you wish to release the parking <strong>brake</strong> without pressing the <strong>brake</strong> pedal, this warning lamp will remain  <u>p. 37</u></a>
+
+                            <a class="slink" id="result-no-31" href="/manual/766219/Citroen-C4.html?page=37&amp;term=brake&amp;selected=31"> on. Use the <strong>brake</strong> pedal and/or the electric parking <strong>brake</strong>. Action/Observations 1 35  <u>p. 37</u></a>
+
+                            <a class="slink" id="result-no-32" href="/manual/766219/Citroen-C4.html?page=42&amp;term=brake&amp;selected=32">Warning lamp 1 Parking <strong>brake</strong> Electric parking <strong>brake</strong> Deactivation of the automatic functions of the electric parking brake  <u>p. 42</u></a>
+
+                            <a class="slink" id="result-no-33" href="/manual/766219/Citroen-C4.html?page=42&amp;term=brake&amp;selected=33"> O R I N G is on Cause The parking <strong>brake</strong> is applied ? xed. or not properly released. The electric  <u>p. 42</u></a>
+
+                            <a class="slink" id="result-no-34" href="/manual/766219/Citroen-C4.html?page=42&amp;term=brake&amp;selected=34"> parking <strong>brake</strong> is ? xed. applied. The "automatic application" (on switching off  <u>p. 42</u></a>
+
+                            <a class="slink" id="result-no-35" href="/manual/766219/Citroen-C4.html?page=42&amp;term=brake&amp;selected=35"> ? xed. 2nd position (ignition on). Action/Observations Release the parking <strong>brake</strong> to switch off the warning lamp, keeping your foot on  <u>p. 42</u></a>
+
+                            <a class="slink" id="result-no-36" href="/manual/766219/Citroen-C4.html?page=42&amp;term=brake&amp;selected=36"> the <strong>brake</strong> pedal. Observe the safety recommendations. For more information on the  <u>p. 42</u></a>
+
+                            <a class="slink" id="result-no-37" href="/manual/766219/Citroen-C4.html?page=42&amp;term=brake&amp;selected=37"> parking <strong>brake</strong>, refer to the "Parking <strong>brake</strong>" and "Electric parking <strong>brake</strong>" sections. Release the electric parking <strong>brake</strong> to switch off the  <u>p. 42</u></a>
+
+                            <a class="slink" id="result-no-38" href="/manual/766219/Citroen-C4.html?page=42&amp;term=brake&amp;selected=38"> warning lamp: with your foot on the <strong>brake</strong> pedal, pull the electric <strong>brake</strong> control. Observe the safety recommendations.  <u>p. 42</u></a>
+
+                            <a class="slink" id="result-no-39" href="/manual/766219/Citroen-C4.html?page=42&amp;term=brake&amp;selected=39"> For more information on the electric parking <strong>brake</strong>, refer to the "Driving" section. Activate the function (according to  <u>p. 42</u></a>
+
+                               
+						</div>
+					</div></div>
+		
+					
+					<div class="paged">
+						<span>Page</span> <input value="222" class="form-control" title="Current page" type="text"/> <span class="pof">of</span> <span>22</span>
+						<a class="btn btn-primary btn-sm">Go</a>
+					</div>
+					
+					<div class="cbuttons">
+						<a class="btn btn-success btn-sm btn-con-0" href="#" title="Download this manual"><i class="fa fa-download"></i> <span>Download</span></a>
+						<a class="btn btn-control btn-sm btn-con-1" href="#" title="Table of contents"><i class="fa fa-list-ul"></i> <span>Table of contents</span></a>
+						<a class="btn btn-control btn-sm btn-con-1" href="#" title="Comment this manual"><i class="fa fa-cogs"></i> <span>Troubleshooting</span></a>
+						<div class="sharedrop dropdown">	
+							<a class="btn btn-control btn-sm dropdown-toggle btn-con-2" data-toggle="dropdown" id="dropdownMenu1" href="#" title="Share this manual"><i class="fa fa-share"></i> <span>Share</span></a>
+							<div aria-labelledby="dropdownMenu2" role="menu" class="dropdown-menu sharemenu">
+								<div>
+									<div class="input-group">
+									  <span class="input-group-addon">Url of this page:</span>
+									  <input type="text" class="form-control" onclick="select()" value="http://www.manualslib.com/manual/46075/Electrolux-Ew-1200-I.html">
+									</div>
+									<div class="input-group">
+									  <span class="input-group-addon">HTML Link:</span>
+									  <input type="text" class="form-control" onclick="select()" value="<a href='http://www.manualslib.com/manual/46075/Electrolux-Ew-1200-I.html'>EW 1200 i on manualslib.com</a>">
+									</div>
+									
+									<!-- Go to www.addthis.com/dashboard to customize your tools -->
+									<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4d88808560028741"></script>
+		
+								</div>
+							</div>
+						</div>
+						<a class="btn btn-control btn-sm btn-con-2" href="#" title="Bookmark this manual"><i class="fa fa-bookmark-o"></i> <span>Bookmark</span></a>
+						<a class="btn btn-control btn-sm btn-con-2" href="#" title="Comment this manual"><i class="fa fa-comments-o"></i> <span>Comment</span></a>
+					</div>
+					
+				</div>
+			</div>
+			
+		</header>
+	
+	
+		<div class="container-fluid main">
+				<div class="manualheader" id="up">
+					<div><div>
+						<div class="mhtext">
+							<ol class="breadcrumb">
+									<li><a href="#">Manuals</a></li>
+									<li><a href="#">Brands</a></li>
+									<li><a href="#">Asus Manuals</a></li>
+									<li><a href="#">Laptop</a></li>
+									<li><a href="#">1001PX-EC27-BK</a></li>
+									<li class="active"><a href="#">User manual</a></li>
+							</ol>
+								
+							<h1>Asus 1001PX-EC27-BK User Manual </h1>
+							<h2 class="itemsdescr">Singer sewing machine instruction manual.</h2>
+						</div>
+						
+<!-- EDIT -->
+						<a class="pages_toggle btn btn-xs btn-default" data-toggle="collapse" href="#pages_viewer">Pages Viewer</a><!-- -->
+						
+						<div class="manualother">
+							<div>
+								<a class="manothertoggle" data-toggle="collapse" href="#manualotherdiv"><span>Also See for RX-V673</span> <i class="fa fa-chevron-down"></i></a><!-- -->
+								<!--<div>Also See for RX-V673</div>-->
+								<div id="manualotherdiv" class="collapse manh"> <!-- -->
+									<a href="#">Manual</a> - <small>13 pages</small><br/>
+									<a href="#">Quick manual</a> - <small>4 pages</small><br/>
+									<a href="#">Owner's manual</a> - <small>80 pages</small>
+								</div>
+							</div>
+						</div>
+<!-- .EDIT -->
+						
+						
+					</div></div>
+				</div>
+				
+<!-- EDIT -->			<div class="manualpages mp_horizontal" id="pages_viewer"> <!-- -->  <!-- .EDIT -->
+					<a class="prev">&nbsp;</a>
+                    <a class="next">&nbsp;</a>
+					<div class="manuapages_scroll">
+							<div class="items">	   
+								<div class="item empty">
+								 <a id="page1" href="/manual/464698/Honda-Civic.html#manual" class="mpage">
+									<img alt="" src="img/img.jpg">
+									<b>1</b>
+								</a>  
+								   <a id="page2" title="Mark" href="/manual/464698/Honda-Civic.html?page=2#manual" class="mpage">
+								   <img alt="" src="img/img.jpg">
+									<b>2</b>
+								</a>  
+								   <a id="page3" title="Table Of Contents" href="/manual/464698/Honda-Civic.html?page=3#manual" class="mpage">
+								   <img alt="" src="img/img.jpg">
+									<b>3</b>
+								</a> 
+								</a>  
+								   <a id="page4" title="Table Of Contents" href="/manual/464698/Honda-Civic.html?page=3#manual" class="mpage">
+								   <img alt="" src="img/img.jpg">
+									<b>3</b>
+								</a> 
+								</a>  
+								   <a id="page5" title="Table Of Contents" href="/manual/464698/Honda-Civic.html?page=3#manual" class="mpage">
+								   <img alt="" src="img/img.jpg">
+									<b>3</b>
+								</a> 
+								</a>  
+								   <a id="page6" title="Table Of Contents" href="/manual/464698/Honda-Civic.html?page=3#manual" class="mpage">
+								   <img alt="" src="img/img.jpg">
+									<b>3</b>
+								</a>
+								</a>  
+								   <a id="page7" title="Table Of Contents" href="/manual/464698/Honda-Civic.html?page=3#manual" class="mpage">
+								   <img alt="" src="img/img.jpg">
+									<b>3</b>
+								</a> 
+								</a>  
+								   <a id="page8" title="Table Of Contents" href="/manual/464698/Honda-Civic.html?page=3#manual" class="mpage">
+								   <img alt="" src="img/img.jpg">
+									<b>3</b>
+								</a> 
+								</a>  
+								   <a id="page9" title="Table Of Contents" href="/manual/464698/Honda-Civic.html?page=3#manual" class="mpage">
+								   <img alt="" src="img/img.jpg">
+									<b>3</b>
+								</a> 
+								</a>  
+								   <a id="page10" title="Table Of Contents" href="/manual/464698/Honda-Civic.html?page=3#manual" class="mpage">
+								   <img alt="" src="img/img.jpg">
+									<b>3</b>
+								</a> 
+							</div>
+						</div>
+					</div>
+				</div>
+			
+				<div class="manualcenter">
+					<div class="manualban">
+						<img src="img/ban.jpg"/>
+					</div>
+					<div class="manual_here">
+						<div class="addthis_v">
+							<!--<img src="img/addthis_v.png"/>-->
+							
+							<!-- PLUSO -->
+							<!--						
+							<script type="text/javascript">(function() {
+							  if (window.pluso)if (typeof window.pluso.start == "function") return;
+							  if (window.ifpluso==undefined) { window.ifpluso = 1;
+								var d = document, s = d.createElement('script'), g = 'getElementsByTagName';
+								s.type = 'text/javascript'; s.charset='UTF-8'; s.async = true;
+								s.src = ('https:' == window.location.protocol ? 'https' : 'http')  + '://share.pluso.ru/pluso-like.js';
+								var h=d[g]('body')[0];
+								h.appendChild(s);
+							  }})();</script>
+							  
+							<div class="pluso" data-background="transparent" data-options="medium,square,line,vertical,counter,theme=04" data-services="vkontakte,odnoklassniki,facebook,twitter,google,email,print"></div>
+							-->						
+							
+						</div>
+						
+						<a class="mpp mpp_prev" href="#" ><i class="fa fa-angle-left"></i></a>
+						<a class="mpp mpp_next" href="#" ><i class="fa fa-angle-right"></i></a>
+						<a class="mpp_up" href="#up"><i class="fa fa-chevron-up"></i></a>
+						
+						<div class="page-doc">
+								<style>
+								div.pdf
+								{
+								  position: relative;
+								  width:  950px;
+								  height: 1284px;
+								  background: url(http://data.manualslib.com//pdf/33/3241/324027-sunbeam/images/5833_1_bg.jpg);
+								  overflow: hidden;
+								}
+
+								div.pdf *
+								{
+								  display:  inline;
+								  position: absolute;
+								  margin:   0;
+								  padding:  0;
+								  color: #000000;
+								  font-family: Arial, sans-serif;
+								  white-space: nowrap;
+								}
+								</style><div class="pdf"><div style="left:177px;top:195px;font-size:33px;">User Manual &amp;</div>
+								<div style="left:177px;top:238px;font-size:33px;">Bread Recipes</div>
+								<div style="left:542px;top:424px;font-size:20px;">2 lb. EXPRESSBAKE&trade;</div>
+								<div style="left:542px;top:455px;font-size:20px;">Breadmaker</div></div>
+								<div class="clear"></div>
+                          </div>
+					</div>
+					<div class="manualban">
+						<img src="img/ban.jpg"/>
+					</div>
+			</div>
+			
+			
+			<div class="pager" id="mpager">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-3 text-left">
+							<a class="pprev btn btn-primary btn-lg" href="#"><i class="fa fa-chevron-left"></i>Previous page</a>
+						</div>
+						<div class="col-xs-6">
+							<ul class="pagination">
+							  <li><a href="#">1</a></li>
+							  <li><a href="#">...</a></li>
+							  <li><a href="#">2</a></li>
+							  <li class="active"><a href="#">3</a></li>
+							  <li><a href="#">4</a></li>
+							  <li><a href="#">...</a></li>
+							  <li><a href="#">5</a></li>
+							</ul>
+						</div>
+						<div class="col-xs-3 text-right">
+							<a class="pnext btn btn-primary btn-lg" href="#">Next page<i class="fa fa-chevron-right"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+<!--
+			<section class="helpful blue2">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-4">
+							<h4 style="margin:5px;font-size:18px;">Was This Manual Helpful? </h4>
+						</div>
+						<div class="col-sm-4 text-center">	
+							<a href="javascript:;" class="hlink btn btn-info " onclick="$('.alert').show(); $('.hlink').hide()"><i class="fa fa-check"></i> <span>YES</span></a> 
+							<a href="javascript:;" class="hlink btn btn-danger" onclick="$('.alert').show(); $('.hlink').hide()"><i class="fa fa-ban"></i> <span>NO</span></a>
+							<div role="alert" class="alert alert-success" style="display:none;margin:0;padding:7px 10px;">
+							  <strong>Well done!</strong> You successfully vote.
+							</div>
+						</div>
+						<div class="col-sm-4">	
+							<span style="font-size: 14px;margin-top:5px;" class="label label-info  pull-right">32 Found Helpful</span>
+						</div>
+					</div>
+				</div>
+			</section>
+-->
+			
+			<section class="manualbottom blue1">
+				<div class="container">
+							<div class="block text-center">
+									<h4 class="blockhead"><i class="fa fa-book"></i>&nbsp;&nbsp; Also See for ACER 1000 5123 - Ferrari - Turion 64 X2 1.8 GHz</h4>
+									<div class="manualitem">
+										<a title="" class="manualitem_a tip clearfix" href="#" data-original-title="User manual"><img src="img/img.jpg" alt="Acer 1000 5123 - Ferrari - Turion 64 X2 1.8 GHz manual"></a>
+										<div class="manualiteminfo">
+											<a title="Acer 1000 5123 - Ferrari - Turion 64 X2 1.8 GHz" class="manualitem_link " href="#">Acer 1000 5123 - Ferrari - Turion 64 X2 1.8 GHz</a> <span class="label label-info label-pages">58 pages</span>
+										</div>
+									</div>
+									<div class="manualitem">
+										<a title="" class="manualitem_a tip clearfix" href="#" data-original-title="User manual"><img src="img/img.jpg" alt="Acer 1000 5123 - Ferrari - Turion 64 X2 1.8 GHz manual"></a>
+										<div class="manualiteminfo">
+											<a title="Acer 1000 5123 - Ferrari - Turion 64 X2 1.8 GHz" class="manualitem_link " href="#">Acer 1000 5123 - Ferrari - Turion 64 X2 1.8 GHz</a> <span class="label label-info label-pages">58 pages</span>
+										</div>
+									</div>
+									<div class="manualitem">
+										<a title="" class="manualitem_a tip clearfix" href="#" data-original-title="User manual"><img src="img/img.jpg" alt="Acer 1000 5123 - Ferrari - Turion 64 X2 1.8 GHz manual"></a>
+										<div class="manualiteminfo">
+											<a title="Acer 1000 5123 - Ferrari - Turion 64 X2 1.8 GHz" class="manualitem_link " href="#">Acer 1000 5123 - Ferrari - Turion 64 X2 1.8 GHz</a> <span class="label label-info label-pages">58 pages</span>
+										</div>
+									</div>
+							</div>
+				</div>
+			</section>
+			
+			<section class="whitebg">
+				<div class="container">
+					<h4 class="blockhead"><i class="fa fa-book"></i>&nbsp;&nbsp; Related Manuals for ACER 1000 5123 - Ferrari - Turion 64 X2 1.8 GHz</h4>
+					<div class="row">
+						<div class="col-sm-6">
+							<ul class="rellist">
+													<li>
+														<a href="">Laptop Asus Eee PC 1001PXD User Manual</a> <span class="label label-info">58 pages</span>
+														<div>Yamaha digital sound projector owner's manual</div>
+													</li>
+													<li>
+														<a href="">Laptop Asus Eee PC 1001PXD User Manual</a> <span class="label label-info">58 pages</span>
+														<div>Yamaha digital sound projector owner's manual</div>
+													</li>
+													<li>
+														<a href="">Laptop Asus Eee PC 1001PXD User Manual</a> <span class="label label-info">58 pages</span>
+														<div>Yamaha digital sound projector owner's manual</div>
+													</li>
+													<li>
+														<a href="">Laptop Asus Eee PC 1001PXD User Manual</a> <span class="label label-info">58 pages</span>
+														<div>Yamaha digital sound projector owner's manual</div>
+													</li>
+								</ul>
+						</div>
+							
+						<div class="col-sm-6">
+							<ul class="rellist">
+													<li>
+														<a href="">Laptop Asus Eee PC 1001PXD User Manual</a> <span class="label label-info">58 pages</span>
+														<div>Yamaha digital sound projector owner's manual</div>
+													</li>
+													<li>
+														<a href="">Laptop Asus Eee PC 1001PXD User Manual</a> <span class="label label-info">58 pages</span>
+														<div>Yamaha digital sound projector owner's manual</div>
+													</li>
+													<li>
+														<a href="">Laptop Asus Eee PC 1001PXD User Manual</a> <span class="label label-info">58 pages</span>
+														<div>Yamaha digital sound projector owner's manual</div>
+													</li>
+													<li>
+														<a href="">Laptop Asus Eee PC 1001PXD User Manual</a> <span class="label label-info">58 pages</span>
+														<div>Yamaha digital sound projector owner's manual</div>
+													</li>
+								</ul>
+						</div>
+					</div>	
+				</div>
+			</section>
+			
+			
+			
+			<section class="helpful blue1">
+				<div class="container">
+						<div class="block">
+							<h4 class="blockhead text-center"><i class="fa fa-list"></i>&nbsp;&nbsp; Summary of Contents for ACER 1000 5123 - Ferrari - Turion 64 X2 1.8 GHz</h4>
+								<div class="summarybock">	
+									<div class="summarydiv scroll-pane">
+										<ul>
+                                                                            <li class="odd">
+                                                <h3><a href="/manual/324027/Sunbeam-5833.html#manual">Page 1</a></h3>
+                                                <p>User Manual &amp; Bread Recipes 2 lb. EXPRESSBAKE&trade; Breadmaker...</p>
+                                          
+                                        </li>
+                                                                            <li>
+                                                <h3><a href="/manual/324027/Sunbeam-5833.html?page=2#manual">Page 2</a></h3>
+                                                <p>Important Safeguards When using electrical appliances, basic safety precautions should always be followed including the following: Read all instructions, product labels and warnings before using the breadmaker. Do not touch hot surfaces. Always use oven mitts when handling hot materials, and allow metal parts to cool before cleaning. Allow the breadmaker to cool thoroughly before putting in or taking off parts.</p>
+                                          
+                                        </li>
+                                                                            <li class="odd">
+                                                <h3><a href="/manual/324027/Sunbeam-5833.html?page=3#manual">Page 3: Table Of Contents</a></h3>
+                                                <p>Contents Chapter 1: Getting Started ....2 Chapter 2: Let’s Bake Bread ....4 Chapter 3: Overview of Breadmaker Features .</p>
+                                          
+                                        </li>
+                                                                            <li>
+                                                <h3><a href="/manual/324027/Sunbeam-5833.html?page=4#manual">Page 4</a></h3>
+                                                <p>Getting Started Place the breadmaker on a counter where the plug will reach an outlet. DO NOT yet plug the machine into the wall outlet. You will be shown later when to do this. Make sure you can open the breadmaker top without hitting the top of kitchen cabinets.</p>
+                                          
+                                        </li>
+                                                                            <li class="odd">
+                                                <h3><a href="/manual/324027/Sunbeam-5833.html?page=5#manual">Page 5</a></h3>
+                                                <p>Attach the kneading blade to the baking pan, as shown. You will find the kneading blade in a small plastic wrap attached to the power cord. Set the pan aside. Do not yet place the pan into the breadmaker. You’re ready to start!</p>
+                                          
+                                        </li>
+                                                                            <li>
+                                                <h3><a href="/manual/324027/Sunbeam-5833.html?page=6#manual">Page 6</a></h3>
+                                                <p>Let’s Bake Bread The simplest way to learn how to bake bread is to follow a basic recipe. The following recipe is easy and the bread is delicious. Before you begin • Make sure you have the following measuring equipment: &mdash;...</p>
+                                          
+                                        </li>
+                                                                            <li class="odd">
+                                                <h3><a href="/manual/324027/Sunbeam-5833.html?page=7#manual">Page 7</a></h3>
+                                                <p>Measuring THE most important secret of making bread. Exact measurements. That’s the key to successfully baking bread. Exact measurements. With wet ingredients, use ONLY measuring cups with the cups/ ounces marked clearly on the side. After filling the measuring cup, place it on a flat surface and view it at eye level to make sure the amount of liquid is exact.</p>
+                                          
+                                        </li>
+                                                                            <li>
+                                                <h3><a href="/manual/324027/Sunbeam-5833.html?page=8#manual">Page 8</a></h3>
+                                                <p>Temperatures too cool or too high can affect the way the bread rises and bakes. Last, it’s a good idea to start with all new, fresh ingredients (especially fresh flour and yeast). Now, let’s try a simple (but really good) recipe.</p>
+                                          
+                                        </li>
+                                                                            <li class="odd">
+                                                <h3><a href="/manual/324027/Sunbeam-5833.html?page=9#manual">Page 9</a></h3>
+                                                <p>Traditional White Bread 2 lb. loaf 1 + 1/3 cups water 4 teaspoons softened butter or margarine 4 cups bread flour 2 tablespoons sugar 4 teaspoons dry milk Carefully measure 1 and 1/3 cups water. Remember, use water that is room temperature.</p>
+                                          
+                                        </li>
+                                                                            <li>
+                                                <h3><a href="/manual/324027/Sunbeam-5833.html?page=10#manual">Page 10</a></h3>
+                                                <p>This takes care of all of the liquid ingredients for the recipe. Next come the dry ingredients. Measure 4 cups of bread flour. Make sure not to “overpack” the flour into the cup. To avoid over packing, a good trick is to fill the measuring cup to overflowing, then tap the side of the cup with a knife or spatula to remove air pockets.</p>
+                                          
+                                        </li>
+                                                                            <li class="odd">
+                                                <h3><a href="/manual/324027/Sunbeam-5833.html?page=11#manual">Page 11</a></h3>
+                                                <p>Carefully snap the baking pan into the breadmaker. Close the lid of the bread machine and plug the power cord into the wall outlet. The following things will happen. The machine will “beep,” and the lights of the display will turn on. The time setting will say “3:00”...</p>
+                                          
+                                        </li>
+                                                                            <li>
+                                                <h3><a href="/manual/324027/Sunbeam-5833.html?page=12#manual">Page 12</a></h3>
+                                                <p>Press the “Start/Stop” button and your machine will start making bread. You will hear the breadmaker begin to mix the ingredients. Important: Do NOT press the “Start/Stop” button while the breadmaker is making bread. If you do, the machine will turn off and you will need to start over again, from scratch.</p>
+                                          
+                                        </li>
+                                                                            <li class="odd">
+                                                <h3><a href="/manual/324027/Sunbeam-5833.html?page=13#manual">Page 13</a></h3>
+                                                <p>After the bread is baked Caution: Do not put your face near the lid when you open the breadmaker. Hot steam may escape that could burn you. Important: The breadmaker has an automatic “keep warm” setting that will keep your bread warm for up to one hour.</p>
+                                          
+                                        </li>
+                                                                            <li>
+                                                <h3><a href="/manual/324027/Sunbeam-5833.html?page=14#manual">Page 14</a></h3>
+                                                <p>Overview of Breadmaker Features Press this button to select the kind of bread you want to make. Each time you press the button you will hear a beep, and the number of the bread setting will appear on the display. For example: Basic is 1, Whole Wheat is 2, French is 3, etc.</p>
+                                          
+                                        </li>
+                                                                            <li class="odd">
+                                                <h3><a href="/manual/324027/Sunbeam-5833.html?page=15#manual">Page 15</a></h3>
+                                                <p>Crust Color button The Crust Color button allows you to choose how light or dark to make the crust of the bread. Each time you press the Crust Color button the display will change as follows: L-Light= P-Medium= P H-Dark= In addition, the display will show the cycle number before the crust color setting.</p>
+                                          
+                                        </li>
+                                                                            <li>
+                                                <h3><a href="/manual/324027/Sunbeam-5833.html?page=16#manual">Page 16</a></h3>
+                                                <p>Start/Stop button Press this button to start and stop your breadmaker. Important: Do not press “Stop” when making bread because this will cancel the entire cycle and you will need to start from scratch. Breadmaker Settings Your breadmaker can bake almost any kind of bread. We provide recipes that clearly show you which setting you should use.</p>
+                                          
+                                        </li>
+                                                                            <li class="odd">
+                                                <h3><a href="/manual/324027/Sunbeam-5833.html?page=17#manual">Page 17</a></h3>
+                                                <p>Sweet The sweet setting is for baking breads with high amounts of sugar, fats, and proteins, all of which tend to increase browning. EXPRESSBAKE&trade; (58 minutes) Use this setting to for baking bread in under one hour. (please see page 16). EXPRESSBAKE&trade;...</p>
+                                          
+                                        </li>
+                                                                            <li>
+                                                <h3><a href="/manual/324027/Sunbeam-5833.html?page=18#manual">Page 18</a></h3>
+                                                <p>EXPRESSBAKE&trade;: Making Bread in Under 1 Hour &reg; Your Sunbeam breadmaker can bake great bread in under one hour. This is called the “EXPRESSBAKE&trade;” setting. Loaves baked on the EXPRESSBAKE&trade; setting are a little different than loaves not baked on EXPRESSBAKE&trade; settings. Try all the different settings to see which one you prefer.</p>
+                                          
+                                        </li>
+                                                                            <li class="odd">
+                                                <h3><a href="/manual/324027/Sunbeam-5833.html?page=19#manual">Page 19</a></h3>
+                                                <p>• The other setting is for baking loaves in 1 hour 20 minutes. The loaves baked with this setting are a little taller and more airy than the 58 minute breads. There are a few things you should know about the EXPRESSBAKE&trade; settings that are different than the other settings.</p>
+                                          
+                                        </li>
+                                                                            <li>
+                                                <h3><a href="/manual/324027/Sunbeam-5833.html?page=20#manual">Page 20</a></h3>
+                                                <p>20 minutes with the cover open. &mdash; YOU CAN use standard bread mixes for EXPRESSBAKE&trade; setting breads, but the results may not be as good as the results when using your Sunbeam within this book. EXPRESSBAKE&trade; Setting Tips and Hints...</p>
+                                          
+                                        </li>
+                                                                            <li class="odd">
+                                                <h3><a href="/manual/324027/Sunbeam-5833.html?page=21#manual">Page 21</a></h3>
+                                                <p>&mdash; You may need a cooking thermometer to measure the temperature of the water you use in these recipes. You should only use hot water (between 115° and 125° F) for EXPRESSBAKE&trade; setting recipes. Although baking EXPRESSBAKE&trade; setting breads is a little different, the results and convenience are well worth it.</p>
+                                          
+                                        </li>
+                                                                            <li>
+                                                <h3><a href="/manual/324027/Sunbeam-5833.html?page=22#manual">Page 22</a></h3>
+                                                <p>Use a cooking thermometer to make sure the temperature of the water is between 115°&ndash;125° F. When the water is at the proper temperature, pour into the baking pan. Carefully measure and add 2 tablespoons oil that is at room temperature. Carefully measure and add the salt, sugar, and dry milk to the baking pan.</p>
+                                          
+                                        </li>
+                                                                            <li class="odd">
+                                                <h3><a href="/manual/324027/Sunbeam-5833.html?page=23#manual">Page 23</a></h3>
+                                                <p>Repeatedly press the Select button until the display reads 5:P. Press the “Start/Stop” button and your machine will start making bread. Caution: Do NOT raise the lid when using the EXPRESSBAKE&trade; setting. Doing so can affect the rising of the dough. The breadmaker is very hot, right from the beginning of the cycle.</p>
+                                          
+                                        </li>
+                                                                            <li>
+                                                <h3><a href="/manual/324027/Sunbeam-5833.html?page=24#manual">Page 24</a></h3>
+                                                <p>Use pot holders or oven mitts to carefully lift the pan by its handle from the breadmaker. Turn the pan upside down onto a cooling rack and gently shake it until the bread comes out. If it sticks, take a rubber spatula, (metal can damage the pan’s surface), and carefully go around the sides of the loaf until the bread comes out.</p>
+                                          
+                                        </li>
+                                                                            <li class="odd">
+                                                <h3><a href="/manual/324027/Sunbeam-5833.html?page=25#manual">Page 25</a></h3>
+                                                <p>Using the Delay Timer You can delay the time your breadmaker starts to have fresh bread ready when you get up in the morning or when you come from work. We recommend that before you use the Delay Timer, you try out a few recipes.</p>
+                                          
+                                        </li>
+                                                                            <li>
+                                                <h3><a href="/manual/324027/Sunbeam-5833.html?page=26#manual">Page 26</a></h3>
+                                                <p>To use the Delay Timer: Figure out how many hours and minutes there are between now and when you want final, baked bread. For example, if it is 8:00 AM and you want bread ready for dinner at 6:00 PM, that is 10 hours. Use the “Timer Up”...</p>
+                                          
+                                        </li>
+                                                                            <li class="odd">
+                                                <h3><a href="/manual/324027/Sunbeam-5833.html?page=27#manual">Page 27: Tips And Hints</a></h3>
+                                                <p>Tips and Hints Experienced cooks consider breadmaking to be as much of an art as a science. Keep in mind that some recipes may require a little experimentation before they are exactly the way you want them. Just don’t give up. Still, there are special hints to ensuring quality bread almost every time.</p>
+                                          
+                                        </li>
+                                                                            <li>
+                                                <h3><a href="/manual/324027/Sunbeam-5833.html?page=28#manual">Page 28</a></h3>
+                                                <p>depending on the area of the country in which you live. We recommend using fresh bread flour. • Yeast. Fresh yeast is probably the most important ingredient in baking bread. If the yeast is not fresh, your bread may not rise. It is better to buy new yeast than to take a chance on yeast that has been stored for a long time.</p>
+                                          
+                                        </li>
+                                                                            <li class="odd">
+                                                <h3><a href="/manual/324027/Sunbeam-5833.html?page=29#manual">Page 29</a></h3>
+                                                <p>If the doughball is too wet During the second kneading cycle, check the consistency of the doughball. If the doughball appears sticky or wet, like pancake batter, sprinkle in flour, a tablespoon at a time, until the doughball appears smooth, round, and dry and circles nicely in the pan.</p>
+                                          
+                                        </li>
+                                                                            <li>
+                                                <h3><a href="/manual/324027/Sunbeam-5833.html?page=30#manual">Page 30</a></h3>
+                                                <p>If the bread rises too high • reduce the amount of yeast. For each teaspoon of yeast, try reducing the yeast by 1/8 to 1/4 teaspoon. • reduce the amount of sugar. For each tablespoon of sugar, reduce the amount by 1 to 2 teaspoons.</p>
+                                          
+                                        </li>
+                                                                            <li class="odd">
+                                                <h3><a href="/manual/324027/Sunbeam-5833.html?page=31#manual">Page 31: Measurement Equivalency Chart</a></h3>
+                                                <p>Measurement Equivalency Chart Getting Started The following chart will help you convert measurements used in the recipes. For example: 1/2 tablespoon = 1 + 1/2 teaspoons Fluid Ounce(s) Cup(s) Tablespoon(s) Teaspoon(s) 1 and 1/2...</p>
+                                          
+                                        </li>
+                                                                            <li>
+                                                <h3><a href="/manual/324027/Sunbeam-5833.html?page=32#manual">Page 32: Taking Care Of Your Bread Machine</a></h3>
+                                                <p>Taking Care of Your Bread Machine Caution: Do not put the breadmaker in water or in a dishwasher. Do not use benzene, scrubbing brushes, or chemical cleaners as these will damage the machine. Use only a mild, non-abrasive cleaner to clean the breadmaker.</p>
+                                          
+                                        </li>
+                                                                            <li class="odd">
+                                                <h3><a href="/manual/324027/Sunbeam-5833.html?page=33#manual">Page 33</a></h3>
+                                                <p>Cleaning the baking pan and kneading blade Wipe the baking pan and kneading blade with a damp cloth and dry completely. DO NOT wash the pan or parts in the dishwasher. This will damage the finish of the pan and the other parts. Caring for your breadmaker Keep your breadmaker clean at all times.</p>
+                                          
+                                        </li>
+                                                                            <li>
+                                                <h3><a href="/manual/324027/Sunbeam-5833.html?page=34#manual">Page 34: Troubleshooting</a></h3>
+                                                <p>Troubleshooting Getting Started Getting Started If you experience difficulties when operating the breadmaker, review the troubleshooting information in this section to find a solution. If you are unable to find a solution, please call our Consumer Relations Department at 1(800)526-2832. If you have a power outage If the power goes out while you are using your breadmaker, the display will go blank.</p>
+                                          
+                                        </li>
+                                                                            <li class="odd">
+                                                <h3><a href="/manual/324027/Sunbeam-5833.html?page=35#manual">Page 35</a></h3>
+                                                <p>Understanding Display Information &reg; Your Sunbeam Breadmaker is designed to give you information on temperature problems that may occur. The following chart shows you how to correct problems that may occur from time to time. Display Problem The display does not light up.</p>
+                                          
+                                        </li>
+                                                                            <li>
+                                                <h3><a href="/manual/324027/Sunbeam-5833.html?page=36#manual">Page 36</a></h3>
+                                                <p>Troubleshooting Breadmaker Problems If the breadmaker does not function as you think it should, review the chart below for some possible solutions. Breadmaker Problem You see smoke or smell a burning odor from the back of the machine. The dough does not mix. Troubleshooting Baking Problems If your bread does not turn out the way you expected or has some characteristic you don’t care for, review the chart below...</p>
+                                          
+                                        </li>
+                                                                            <li class="odd">
+                                                <h3><a href="/manual/324027/Sunbeam-5833.html?page=37#manual">Page 37</a></h3>
+                                                <p>Baking Problem, continued The bread has a heavy, thick texture. The bread is not baked completely in the center. The bread has a coarse or holey texture. The bread rose too much. The bread did not rise enough. Solution Try using less flour (a teaspoon at a time), or more yeast (1/4 teaspoon at a time).</p>
+                                          
+                                        </li>
+                                                                            <li>
+                                                <h3><a href="/manual/324027/Sunbeam-5833.html?page=38#manual">Page 38</a></h3>
+                                                <p>Baking Problem, continued The bread has a floured top. The bread is too brown. The bread is not brown enough. Solution This is usually a result of using too much flour or not enough water. Try using less flour (a teaspoon less at a time), or try using more yeast (1/4 teaspoon less at a time).</p>
+                                          
+                                        </li>
+                                                                            <li class="odd">
+                                                <h3><a href="/manual/324027/Sunbeam-5833.html?page=39#manual">Page 39: Recipes, Basic</a></h3>
+                                                <p>Recipes Basic Setting Recipes Basic Bread Machine Stages For the basic cycle you can expect the following things to happen as the timer counts down to zero. To begin: The dough is kneaded for the first time. (10 minutes) At 2:50: The dough begins to rise.</p>
+                                          
+                                        </li>
+                                                                            <li>
+                                                <h3><a href="/manual/324027/Sunbeam-5833.html?page=40#manual">Page 40</a></h3>
+                                                <p>Traditional White Bread 1.5 pound loaf 1 cup and 2 tablespoons water 1 tablespoon butter or margarine 1 3/4 teaspoons salt 3 cups bread flour 1 tablespoon dry milk 2 tablespoon sugar 2 3/4 teaspoons active dry yeast Measure and add liquid ingredients to the bread pan. Measure and add dry ingredients (except yeast) to the bread pan.</p>
+                                          
+                                        </li>
+                                                                            <li class="odd">
+                                                <h3><a href="/manual/324027/Sunbeam-5833.html?page=41#manual">Page 41</a></h3>
+                                                <p>Favorite Potato Bread 2 pound loaf 1 and 1/2 cups water 2 tablespoons butter or margarine (softened) 2 teaspoons salt 4 cups bread flour 4 teaspoons sugar 1/2 cup instant potato flakes 2 and 1/2 teaspoons active dry yeast Measure and add liquid ingredients to the bread pan. Measure and add dry ingredients (except yeast) to the bread pan.</p>
+                                          
+                                        </li>
+                                                                            <li>
+                                                <h3><a href="/manual/324027/Sunbeam-5833.html?page=42#manual">Page 42</a></h3>
+                                                <p>Press “Select” button to choose the Basic setting. Press the “Crust Color” button to choose light, medium or dark crust. Press the “Start/Stop” button. Caraway - Rye Bread 1.5 pound loaf 1 and 1/4 cups water 1 tablespoon margarine or butter, softened 2 and 1/2 cups bread flour 3/4 cup rye flour...</p>
+                                          
+                                        </li>
+                                                                            <li class="odd">
+                                                <h3><a href="/manual/324027/Sunbeam-5833.html?page=43#manual">Page 43</a></h3>
+                                                <p>Measure and add liquid ingredients to the bread pan. dry ingredients (except yeast) to the bread pan. Use your finger to form a well (hole) in the flour where you will pour the yeast. Yeast must NEVER come into contact with a liquid when you are adding ingredients.</p>
+                                          
+                                        </li>
+                                                                            <li>
+                                                <h3><a href="/manual/324027/Sunbeam-5833.html?page=44#manual">Page 44</a></h3>
+                                                <p>Cheddar-Chive Bread 1.5 pound loaf 1 and 1/4 cup water 3 and 1/4 cups bread flour 1 and 1/4 cups shredded cheddar cheese 1/4 cup chopped fresh or freeze dried chives 2 tablespoons sugar 3/4 teaspoon salt 1 teaspoon yeast Measure and add liquid ingredients (including sourdough starter) to the bread pan.</p>
+                                          
+                                        </li>
+                                                                            <li class="odd">
+                                                <h3><a href="/manual/324027/Sunbeam-5833.html?page=45#manual">Page 45: French</a></h3>
+                                                <p>French Setting Recipes French Bread Machine Settings For the French bread cycle you can expect the following things to happen as the timer counts down to zero. To begin: The dough is kneaded for the first time. (18 minutes) At 3:32: The dough begins to rise.</p>
+                                          
+                                        </li>
+                                                                            <li>
+                                                <h3><a href="/manual/324027/Sunbeam-5833.html?page=46#manual">Page 46</a></h3>
+                                                <p>Classic French Bread 1.5 pound loaf 1 cup and 2 tablespoons water 2 teaspoons margarine or butter softened 3 and 1/4 cup bread flour 1 tablespoon sugar 1 and 1/2 teaspoons salt 1 and 3/4 teaspoons yeast Measure and add liquid ingredients to the bread pan. Measure and add dry ingredients (except yeast) to the bread pan.</p>
+                                          
+                                        </li>
+                                                                            <li class="odd">
+                                                <h3><a href="/manual/324027/Sunbeam-5833.html?page=47#manual">Page 47: Sweet</a></h3>
+                                                <p>Sweet Setting Recipes Sweet Bread Machine Stages For the sweet bread cycle you can expect the following things to happen as the timer counts down to zero: At 2:50: The dough is kneaded for the first time. (10 minutes) At 2:40: The dough begins to rise. (5 minutes) At 2:35: The dough is kneaded for the second time.</p>
+                                          
+                                        </li>
+                                                                            <li>
+                                                <h3><a href="/manual/324027/Sunbeam-5833.html?page=48#manual">Page 48</a></h3>
+                                                <p>Apple-Spice Bread 1.5 pound loaf 1 and 1/4 cup water 2 tablespoons margarine or butter, softened 3 and 1/4 cups bread flour 2 tablespoons sugar 2 tablespoons dry milk 1 and 1/2 teaspoons salt 2 teaspoons apple-pie spice 1 and 1/2 teaspoons yeast Mix-Ins 1/2 cup cut up dried apples Measure and add liquid ingredients to the bread pan.</p>
+                                          
+                                        </li>
+                                                                            <li class="odd">
+                                                <h3><a href="/manual/324027/Sunbeam-5833.html?page=49#manual">Page 49</a></h3>
+                                                <p>Measure and add liquid ingredients to the bread pan. Measure and add dry ingredients (except yeast) to the bread pan Use your finger to form a well (hole) in the flour where you will pour the yeast. Yeast must NEVER come into contact with a liquid when you are adding ingredients.</p>
+                                          
+                                        </li>
+                                                                            <li>
+                                                <h3><a href="/manual/324027/Sunbeam-5833.html?page=50#manual">Page 50</a></h3>
+                                                <p>Old Fashioned Oatmeal Bread 1.5 pound loaf 1 cup water 1/4 cup molasses 2 tablespoons margarine or butter, softened 3 cups bread flour 1/2 cup quick cooking or regular oats 2 tablespoons dry milk 1 and 1/4 teaspoons salt 1 and 3/4 teaspoons yeast Measure and add liquid ingredients to the bread pan.</p>
+                                          
+                                        </li>
+                                                                            <li class="odd">
+                                                <h3><a href="/manual/324027/Sunbeam-5833.html?page=51#manual">Page 51</a></h3>
+                                                <p>EXPRESSBAKE&trade; Setting Recipes (58 Minutes) EXPRESSBAKE&trade; Bread Machine Stages (58 minutes) For the 58 minute EXPRESSBAKE&trade; cycle you can expect the following things to happen as the timer counts down to zero: At 0:58: The dough is kneaded. (10 minutes) At 0:48: The dough begins to rise.</p>
+                                          
+                                        </li>
+                                                                            <li>
+                                                <h3><a href="/manual/324027/Sunbeam-5833.html?page=52#manual">Page 52</a></h3>
+                                                <p>White Bread 1.5 pound loaf 1 cup and 2 tablespoons hot water (115°&ndash;125° F) 2 tablespoons oil 2 tablespoons sugar 1 teaspoon salt 3 cups bread flour 4 and 1/2 teaspoons Red Star&reg; Quick•Rise&trade; yeast Important: Carefully measure the hot water and make sure it is between 115°&ndash;125°...</p>
+                                          
+                                        </li>
+                                                                            <li class="odd">
+                                                <h3><a href="/manual/324027/Sunbeam-5833.html?page=53#manual">Page 53</a></h3>
+                                                <p>Important: Carefully measure the hot water and make sure it is between 115°&ndash;125° F by using a cooking thermometer. Only use Red Star&reg; Quick•Rise&trade; yeast. Measure and add liquid ingredients to the bread pan. Measure and add dry ingredients (except yeast) to the bread pan. Use your finger to form a well (hole) in the flour where you will pour the yeast.</p>
+                                          
+                                        </li>
+                                                                            <li>
+                                                <h3><a href="/manual/324027/Sunbeam-5833.html?page=54#manual">Page 54</a></h3>
+                                                <p>EXPRESSBAKE&trade; 80 min. EXPRESSBAKE&trade; Setting Recipes (80 Minutes) EXPRESSBAKE&trade; Bread Machine Stages (80 minutes) For the 80 minute EXPRESSBAKE&trade; cycle you can expect the following things to happen as the timer counts down to zero: At 1:20: The dough is kneaded. (20 minutes) At 1:00: The dough begins to rise.</p>
+                                          
+                                        </li>
+                                                                            <li class="odd">
+                                                <h3><a href="/manual/324027/Sunbeam-5833.html?page=55#manual">Page 55</a></h3>
+                                                <p>Potato Onion Bread 2 pound loaf 2/3 cup hot water (115°&ndash;125° F) 3 tablespoons oil 2 large eggs 1/2 cup finely chopped onions 2/3 cup baked, mashed potatoes 3 tablespoons sugar 1 and 1/2 teaspoons seasoned salt 4 cups bread flour 2 tablespoons Red Star&reg;...</p>
+                                          
+                                        </li>
+                                                                            <li>
+                                                <h3><a href="/manual/324027/Sunbeam-5833.html?page=56#manual">Page 56</a></h3>
+                                                <p>Measure and add liquid ingredients to the bread pan. Measure and add dry ingredients (except yeast) to the bread pan. Use your finger to form a well (hole) in the flour where you will pour the yeast. Yeast must NEVER come into contact with a liquid when you are adding ingredients.</p>
+                                          
+                                        </li>
+                                                                            <li class="odd">
+                                                <h3><a href="/manual/324027/Sunbeam-5833.html?page=57#manual">Page 57: Whole Wheat</a></h3>
+                                                <p>Whole Wheat Setting Recipes Whole Wheat Bread Machine Stages For the whole wheat bread cycle you can expect the following things to happen as the timer counts down to zero: At 3:40: The dough is kneaded for the first time. (10 minutes) At 3:30: The dough begins to rise.</p>
+                                          
+                                        </li>
+                                                                            <li>
+                                                <h3><a href="/manual/324027/Sunbeam-5833.html?page=58#manual">Page 58</a></h3>
+                                                <p>100% Whole Wheat Bread 2 pound loaf 1 and 2/3 cups water 2 tablespoons margarine or butter, softened 1/3 cup packed brown sugar 2 teaspoons salt 4 and 2/3 cups whole wheat flour 3 teaspoons active dry yeast Measure and add liquid ingredients to the bread pan. Measure and add dry ingredients (except yeast) to the bread pan.</p>
+                                          
+                                        </li>
+                                                                            <li class="odd">
+                                                <h3><a href="/manual/324027/Sunbeam-5833.html?page=59#manual">Page 59</a></h3>
+                                                <p>Crunchy Wheat and Honey Bread 2 pound loaf 1 and 2/3 cups water 2 teaspoons butter or margarine, softened 1/4 cup honey 2 teaspoons salt 2 1/4 cup whole wheat flour 2 cups bread flour 2/3 cup toasted, slivered almonds 2 teaspoons active dry yeast Measure and add liquid ingredients to the bread pan.</p>
+                                          
+                                        </li>
+                                                                            <li>
+                                                <h3><a href="/manual/324027/Sunbeam-5833.html?page=60#manual">Page 60</a></h3>
+                                                <p>Press “Select” button to choose the Whole Wheat setting. Press the “Crust Color” button to choose light, medium or dark crust. Press the “Start/Stop” button. Russian Black Bread (Borodinsky) 1.5 pound loaf 1 cup water 3 tablespoons dark molasses 2 tablespoons margarine or butter, softened 1 and 1/4 cup bread flour 1 cup whole wheat flour...</p>
+                                          
+                                        </li>
+                                                                            <li class="odd">
+                                                <h3><a href="/manual/324027/Sunbeam-5833.html?page=61#manual">Page 61</a></h3>
+                                                <p>Measure and add liquid ingredients to the bread pan. Measure and add dry ingredients (except yeast) to the bread pan. Use your finger to form a well (hole) in the flour where you will pour the yeast. Yeast must NEVER come into contact with a liquid when you are adding ingredients.</p>
+                                          
+                                        </li>
+                                                                            <li>
+                                                <h3><a href="/manual/324027/Sunbeam-5833.html?page=62#manual">Page 62: Dough</a></h3>
+                                                <p>Dough Setting Recipes Dough Machine Stages For the dough cycle you can expect the following things to happen as the timer counts down to zero: At 1:30: The dough is kneaded for the first time. (20 minutes) At 1:10: The dough continues to rise. (20 minutes) At 0:50: The dough is “punched down.”...</p>
+                                          
+                                        </li>
+                                                                            <li class="odd">
+                                                <h3><a href="/manual/324027/Sunbeam-5833.html?page=63#manual">Page 63</a></h3>
+                                                <p>Note: The pan does not get hot when using the dough setting. Preparing Dough for Baking Lightly sprinkle all-purpose flour onto a pastry mat or board. Using a rubber spatula or wooden spoon, remove dough from the bread pan and place on lightly floured surface.</p>
+                                          
+                                        </li>
+                                                                            <li>
+                                                <h3><a href="/manual/324027/Sunbeam-5833.html?page=64#manual">Page 64</a></h3>
+                                                <p>Dough swirl. Place rolls 2 to 3 inches apart on prepared baking sheet. Cover, let rise and bake as directed. Makes 10 Butterhorns Lightly grease baking sheet and set aside. On a lightly floured surface, roll dough into a 12-inch circle.</p>
+                                          
+                                        </li>
+                                                                            <li class="odd">
+                                                <h3><a href="/manual/324027/Sunbeam-5833.html?page=65#manual">Page 65</a></h3>
+                                                <p>Bread Pretzel All ingredients at room temperature (70? F&ndash;80? F) 2 cups bread flour 1-1/2 tsp. active dry yeast 1/4 tsp. salt 1/2 tsp. sugar 7/8 cup water 1 to 2 Tbsp. coarse (Kosher) salt 1 egg, slightly beaten Measure all ingredients into bread pan, except egg and coarse salt. Press “Start/Stop”...</p>
+                                          
+                                        </li>
+                                                                            <li>
+                                                <h3><a href="/manual/324027/Sunbeam-5833.html?page=66#manual">Page 66</a></h3>
+                                                <p>Coffee Cake (no Delay Timer) All ingredients at room temperature (70? F&ndash;80? F), except milk 1/4 cup sugar 1 tsp. salt 2-1/4 cups bread flour 2 tsp. active dry yeast 1 egg yolk 3/4 to 7/8 cup milk 1 Tbsp. butter or margarine Measure all ingredients into bread pan.</p>
+                                          
+                                        </li>
+                                                                            <li class="odd">
+                                                <h3><a href="/manual/324027/Sunbeam-5833.html?page=67#manual">Page 67</a></h3>
+                                                <p>In a small bowl, combine all ingredients and blend until smooth. Spread or drizzle glaze on slightly warm coffee cake or sweet rolls. Makes enough to cover 1 coffee cake. Pizza Crust 1.5 pound All ingredients at room temperature (70?&ndash;80? F) 1/2 tsp.</p>
+                                          
+                                        </li>
+                                                                            <li>
+                                                <h3><a href="/manual/324027/Sunbeam-5833.html?page=68#manual">Page 68</a></h3>
+                                                <p>Pasta Recipes Basic Pasta (no Delay Timer) All ingredients should be at room temperature (70?&ndash;80? F) 2 cups all-purpose flour 1 cup semolina flour 1 tsp. salt 1 Tbsp. olive oil or vegetable oil 7/8 cup water Measure all ingredients into bread pan. Select Dough setting.</p>
+                                          
+                                        </li>
+                                                                            <li class="odd">
+                                                <h3><a href="/manual/324027/Sunbeam-5833.html?page=69#manual">Page 69</a></h3>
+                                                <p>Bake Setting Recipes (Jams and Marmalades) Strawberry Jam (no Delay Timer) 1 cup sugar 1 Tbsp. powdered low-sugar fruit pectin 1-1/2 cups fresh strawberries, sliced 2 tsp. lemon juice Combine all ingredients into bread pan. Select Basic setting. Press “Start/Stop.” Allow to mix 5&ndash;6 minutes, scraping sides of the pan with rubber spatula.</p>
+                                          
+                                        </li>
+                                                                            <li>
+                                                <h3><a href="/manual/324027/Sunbeam-5833.html?page=70#manual">Page 70</a></h3>
+                                                <p>Orange Marmalade (no Delay Timer) 1-1/4 cups sugar 2 Tbsp. powdered low-sugar fruit pectin 3 large oranges 1 lemon With a vegetable peeler, shave off the bright layer of peel from one orange and the lemon; chop finely. Remove and discard remaining white peel from orange and lemon. Peel remaining oranges, and discard peels.</p>
+                                          
+                                        </li>
+                                                                            <li class="odd">
+                                                <h3><a href="/manual/324027/Sunbeam-5833.html?page=71#manual">Page 71: Glazes</a></h3>
+                                                <p>Glazes After rolls rise, just before baking, gently apply desired glaze with a pastry brush. Bake as directed in the recipe. • For a shiny golden crust, use Egg Glaze or Egg Yolk Glaze. • For a shiny chewy crust, use Egg White Glaze (crust will be lighter in color).</p>
+                                          
+                                        </li>
+                                                                            <li>
+                                                <h3><a href="/manual/324027/Sunbeam-5833.html?page=72#manual">Page 72</a></h3>
+                                                <p>Ham and Swiss Spread Mix: 1 package (3 oz) cream cheese, softened 2 Tbsp. finely chopped, fully cooked, smoked ham 1 Tbsp. shredded Swiss cheese 1/2 tsp. prepared mustard Herb-Cream Cheese Spread Mix: 1 container (4 oz) whipped cream cheese 1 tsp.</p>
+                                          
+                                        </li>
+                                                                            <li class="odd">
+                                                <h3><a href="/manual/324027/Sunbeam-5833.html?page=73#manual">Page 73: Index</a></h3>
+                                                <p>Index 0:00 (display message) ... .33 altitude, effect on baking ..27 Bake setting description .....15 recipes .</p>
+                                          
+                                        </li>
+                                                                            <li>
+                                                <h3><a href="/manual/324027/Sunbeam-5833.html?page=74#manual">Page 74</a></h3>
+                                                <p>L:LL (display message) ... .33 measurement conversions ..29 measuring tips ....5, 25 power outage, restarting after a .</p>
+                                          
+                                        </li>
+                                                                            <li class="odd">
+                                                <h3><a href="/manual/324027/Sunbeam-5833.html?page=75#manual">Page 75: Recipe Index</a></h3>
+                                                <p>Recipe Index Basic Setting ....37 Caraway Rye ... .40 Cheddar-Chive Bread ..42 Favorite Potato Bread .</p>
+                                          
+                                        </li>
+                                                                            <li>
+                                                <h3><a href="/manual/324027/Sunbeam-5833.html?page=76#manual">Page 76</a></h3>
+                                                <p>Answers to questions regarding this warranty or for your nearest authorized service location may be obtained by calling toll-free 1-800-597-5978 or by writing to Sunbeam &ndash; Consumer Affairs, at P.O. Box 948389, Maitland, FL 32794-8389. Answers to questions regarding this warranty or for your nearest Canadian authorized service location may be obtained by calling toll-free in Canada 1-800-667-8623.</p>
+                                          
+                                        </li>
+                                                                            <li class="odd">
+                                                <h3><a href="/manual/324027/Sunbeam-5833.html?page=77#manual">Page 77</a></h3>
+                                                <p>OTES...</p>
+                                          
+                                        </li>
+                                                                            <li>
+                                                <h3><a href="/manual/324027/Sunbeam-5833.html?page=78#manual">Page 78</a></h3>
+                                                <p>OTES...</p>
+                                          
+                                        </li>
+                                                                            <li class="odd">
+                                                <h3><a href="/manual/324027/Sunbeam-5833.html?page=79#manual">Page 79</a></h3>
+                                                <p>OTES...</p>
+                                          
+                                        </li>
+                                                                            <li>
+                                                <h3><a href="/manual/324027/Sunbeam-5833.html?page=80#manual">Page 80</a></h3>
+                                                <p>Breadmaker P.N. 102813 &copy;1999 Sunbeam Corporation or its affiliated companies. All rights reserved. SUNBEAM&reg; is a registered trademark of Sunbeam Corporation or its affiliated companies. EXPRESSBAKE&trade; is a trademark of Sunbeam Corporation or its affiliated companies. Distributed by Sunbeam Products, Inc.</p>
+                                          
+                                        </li>
+                                                                    </ul>
+									</div>
+								</div>
+							</div>
+					</div>
+			</section>
+			
+			
+			
+			<section class="tagsbg blue2">
+				<div class="container">
+					<h4><!--<i class="fa fa-tag"></i>--> This manual also for: </h4>
+					<span class="label label-tag">1001px-eu17-bk</span> <span class="label label-tag">1001px-eu17-bk</span> <span class="label label-tag">1001px-eu17-bk</span>
+				</div>
+			</section>
+			
+			<section class="comments">
+				<div class="container">
+					
+					<div id="disqus_thread"></div>
+					<script type="text/javascript">
+						/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+						var disqus_shortname = 'manualslibcom'; // required: replace example with your forum shortname
+
+						/* * * DON'T EDIT BELOW THIS LINE * * */
+						(function() {
+							var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+							dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+							(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+						})();
+					</script>
+					<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+					<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+					
+				</div>
+			</section>
+		</div>
+	
+		<footer>
+			<div class="container-fluid">
+				<div class="row">
+					
+					<div class="col-sm-2">
+						<div class="center-block">
+							<a href="" class="flogo"><img alt="manuallib footer logo" src="img/flogo.png"/></a>
+							<div class="copy">&copy; Copyright 2013 ManualsLib Inc. All rights reserved.</div>
+						</div>
+					</div>
+					<div class="col-sm-10">
+						<div class="row">
+							<div class="col-xs-3">
+								<div><a href="#" class="flinkh">About Us</a></div>
+								<ul class="flinklist">
+									<li><a href="#">About Manuals Lib</a></li>
+									<li><a href="#">Our Team</a></li>
+									<li><a href="#">Blog</a></li>
+									<li><a href="#">Sign Up!</a></li>
+									<li><a href="#">Contacts</a></li>
+								</ul>
+							</div>
+							<div class="col-xs-3">
+								<div><a href="#" class="flinkh">Manuals Library</a></div>
+								<ul class="flinklist">
+									<li><a href="#">Searching</a></li>
+									<li><a href="#">Technology</a></li>
+									<li><a href="#">Opportunity</a></li>
+								</ul>
+							</div>
+							<div class="col-xs-2">
+								<div><a href="#" class="flinkh">Brands</a></div>
+								<ul class="flinklist">
+									<li><a href="#">How load to Lib</a></li>
+								</ul>
+							</div>
+							<div class="col-xs-2">
+								<div><a href="#" class="flinkh">Partnership</a></div>
+								<ul class="flinklist">
+									<li><a href="#">For company</a></li>
+									<li><a href="#">Contacts</a></li>
+									<li><a href="#">API</a></li>
+								</ul>
+							</div>
+							<div class="col-xs-2">
+								<div><a href="#" class="flinkh">Disclaimer</a></div>
+							</div>
+						</div>	
+					</div>
+				</div>
+			</div>
+			
+		</footer>
+	</div>
+	
+<!-- Modal -->	
+	<div class="modal fade" id="MYenter" tabindex="-1" role="dialog" aria-hidden="true">
+	  <div class="modal-dialog">
+		
+		<div class="modal-content">
+		  <div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+			<h4 class="modal-title">Login</h4>
+		  </div>
+		  <div class="modal-body">
+			
+			<div class="form-group">
+			  <i class="fa fa-user"></i>
+			  <input type="text" class="form-control" placeholder="Login">
+			</div>
+			
+			<div class="form-group">
+			  <i class="fa fa-key"></i>
+			  <input type="text" class="form-control" placeholder="Password">
+			</div>
+			<div style="text-align:center;">
+				<button type="button" class="btn btn-success btn-block btn-enter">Login to ManualsLib</button>
+				<a class="fbtn" title="Facebook login" href="#"><img alt="Login with Facebook" src="img/fbtn.png" /></a>
+			 </div>
+		  </div>
+		  <div class="modal-footer">
+			<a class="signlink" title="Facebook login" href="#">Don't have an account? Sign up!</a> &nbsp;<i class="fa fa-info-circle ffi"></i><br/>
+			<a class="restore" title="Facebook login" href="#">Restore password</a>
+		  </div>
+		
+		</div><!-- /.modal-content -->
+	  </div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+
+<!-- Modal -->	
+	<div class="modal fade" id="MYupload" tabindex="-1" role="dialog" aria-hidden="true">
+	  <div class="modal-dialog">
+		
+		<div class="modal-content">
+		  <div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+			<h4 class="modal-title">Upload manual</h4>
+		  </div>
+		  <div class="modal-body">
+			<div class="row">
+				<div class="col-md-6">
+					<a href="#" class="btn-upload tip btn-success" title="Upload manual from local disk">
+						<i class="fa fa-upload"></i>
+						<span>upload from disk</span>
+					</a>
+				</div>
+				<div class="col-md-6">
+					<a href="#" class="btn-upload tip btn-success" title="Upload manual from url">
+						<i class="fa fa-cloud-upload"></i>
+						<span>upload from url</span>
+					</a>
+				</div>
+			</div>
+		  </div>
+		  <div class="modal-footer">
+			<a class="signlink" title="Facebook login" href="#">Why I shoold upload manuals!</a> &nbsp;<i class="fa fa-info-circle ffi"></i><br/>
+			
+		  </div>
+		
+		</div><!-- /.modal-content -->
+	  </div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+	
+    <!-- javascript
+    ================================================== -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	<script src="js/bootstrap-typeahead.js"></script>
+	<script src="js/jquery.jscrollpane.min.js"></script>
+	<script src="js/jquery.mousewheel.js"></script>
+	<script src="js/jquery.bxslider.min.js"></script>
+	
+
+	<!-- JS CONFIG -->
+	<script src="js/config.js"></script>
+
+</body>
+</html>

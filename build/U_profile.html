@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>ManualsLib - Makes it easy to find manuals online!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="Search through 700.000 manuals online &amp; and download pdf manuals." name="Description">
+    <meta content=" manuals, instruction manuals, user manuals, service manuals, user guides, pdf manuals, owners manuals, installation guides" name="Keywords">
+	<meta name="author" content="ManualsLib">
+	
+	<link rel="icon" type="image/png" href="favicon.png" />
+	<link rel="apple-touch-icon" href="apple-touch-favicon.png"/>
+
+    <!-- styles -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link type="text/css" rel="stylesheet" href="js/fancybox2/jquery.fancybox.css">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,300,700' rel='stylesheet' type='text/css'>
+	
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	  <script type='text/javascript' src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.7.1/modernizr.min.js"></script>
+	  <script type='text/javascript' src="js/css3-mediaqueries.js"></script>  
+	  <link href="css/bootstrap-ie7.css" rel="stylesheet">
+   <![endif]-->
+		
+</head>
+
+<body class="">
+	<div id="wrap">
+		
+		<header>
+			<nav class="navbar topline" role="navigation">
+			  <div class="container-fluid">
+					
+					<div class="userpanel">					 
+						<div class="userin dropdown">	
+							<a href="" class="dropdown-toggle btn" id="dropdownMenu1" data-toggle="dropdown">
+								<i class="fa fa-user fa-fw"></i> <span>AlexAlexAlexAlex</span><i class="caret"></i>
+							</a>
+							<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+								
+								<li role="presentation"><a role="menuitem" tabindex="-1" href="#"><i class="fa fa-user fa-fw pull-right"></i> Profile</a></li>
+								<li role="presentation"><a role="menuitem" tabindex="-1" href="#"><i class="fa fa-file-text-o fa-fw pull-right"></i> My manuals</a></li>
+								<li role="presentation"><a role="menuitem" tabindex="-1" href="#"><i class="fa fa-cog fa-fw pull-right"></i> Settings</a></li>
+								<li role="presentation" class="divider"></li>
+								<li role="presentation"><a role="menuitem" tabindex="-1" href="#"><i class="fa fa-power-off fa-fw pull-right"></i> Log out</a></li>
+							</ul>
+						</div>
+						<div class="userbuttons">
+							<!--<a class="btn btn-primary" href="#"><i class="fa fa-power-off"></i> <span>Log out</span></a> &nbsp; -->
+							<a data-target="#MYupload" data-toggle="modal" class="btn btn-success" href="#" title="Upload Manual"><i class="fa fa-cloud-upload"></i> <span>Upload</span></a>
+						</div>
+					</div>
+				
+					<div class="navbar-header">
+						<a class="navbar-brand" href="#"><img alt="manualslib" src="img/manualslib.png" /></a>
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs">
+							<!--
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							-->
+							<i class="fa fa-search"></i> 
+						</button>
+					</div>
+					<div class="collapse navbar-collapse cleardfix" id="bs">
+								 <form class="navbar-form mainsearch" role="search">
+									<div class="form-group">
+									  <input type="text" class="form-control" placeholder="Search manual in Library" id="typehead">
+									  <button type="submit" class="btn btn-lib-search"><span class="fa fa-search"></span></button>
+									</div>
+								 </form>
+					</div><!-- /.navbar-collapse -->
+			  </div><!-- /.container-fluid -->
+			</nav>
+			
+		</header>
+		
+		<div class="container-fluid main">
+				<div class="page_topper_user page_topper">
+					<div style="opacity:.2;background:url(img/0.jpg) repeat scroll center center / cover  rgba(0, 0, 0, 0)" class="cover"></div>
+					<div class="container">
+						<ol class="breadcrumb">
+							<li><a href="#">Manuals</a></li>
+							<li class="active">Your account</li>
+						</ol>
+						<div class="userinfo row">
+							<div class="col-sm-2 tc">
+								<div class="userphoto">
+									<img alt="user photo" src="img/pic.jpg"/>
+									<a class="change_photo" href="#" data-target="#MYphoto" data-toggle="modal"><i class="fa fa-camera"></i></a>
+								</div>
+							</div>
+							<div class="col-sm-10">
+								<div class="usertext">
+									<div class="row">
+										<div class="col-sm-8">
+											<h1 class="Uheader">Alexey Kle <a href="#" data-target="#MYeditprofile" data-toggle="modal" class="btn btn-useroptions btn-primary btn-xs"><i class="fa fa-cog"></i></a></h1>
+										</div>
+										<div class="col-sm-4 butttt">
+											<a href="#" data-target="#MYupload" data-toggle="modal" class="btn btn-success"><i class="fa fa-upload"></i> Upload my Manual</a>
+										</div>
+									</div>
+									<div class="cleardfix"></div>
+									<table class="ttt">
+										<tr>
+										  <td>Your rank:</td>
+										  <td>0 of 13084</td>
+										</tr><tr>
+										  <td>Karma:</td>
+										  <td>0 points</td>
+										</tr><tr>
+										  <td>Registered:</td>
+										  <td>2014-01-29</td>
+										</tr>
+									</table>
+								</div>
+							</div>	
+						</div>
+						<!--
+						<div class="uploadbutons">
+							<a class="btn btn-success" href="#"><i class="fa fa-upload"></i><span> Upload from disk</span></a>
+							<a class="btn btn-success" href="#"><i class="fa fa-cloud-upload"></i><span> Upload from web</span></a>
+						</div>
+						-->
+						<ul class="nav nav-tabs" id="user-tabs">
+						  <li class="active"><a href="#">Bookmarked <span class="badge">23</span></a></li>
+						  <li><a href="#">Uploaded <span class="badge">0</span></a></li>
+						  <li><a href="#">Comments <span class="badge">0</span></a></li>
+						</ul>
+					</div>
+				</div>
+				
+				<section class="centerfluid container relative">
+					<div class="greensidebg"></div>
+					<aside class="greenside">
+						<div class="">
+							<div class="searchdiv" style="padding:15px;">
+								<h1 class="sresult" style="margin:0px;">Search by Category:</h1>
+							</div>
+							
+							<ul id="searchtree" class="nav nav-pills nav-stacked left-menu">
+							  <li><a href="#">Manufacturers</a> <span class="fa treeselector" href="#"></span></li>
+							  <li class="active">
+								<a href="#">Categories</a><span class="fa treeselector" href="#"></span>
+									<ul>
+										 <li class="active"><a href="#">Owner's Handbook <span class="badge pull-right">23</span></a></li>
+										 <li><a href="#">Workshop Manual <span class="badge pull-right">23</span></a></li>
+									</ul>
+							  </li>
+							  <li><a href="#">Types</a><span class="fa treeselector" href="#"></span></li>
+							</ul>
+						</div>
+					</aside>
+					<div class="centerside">
+							
+						<div class="bmap bmap-in-profile">
+							<a href="">All</a>
+							<span>#</span>
+							 <span>0</span>
+							 <a href="#1" class="active">1</a>
+							 <span>2</span>
+							 <span>3</span>
+							 <a href="#4">4</a>
+							 <a href="#5">5</a>
+							 <span>6</span>
+							 <span>7</span>
+							 <span>8</span>
+							 <span>9</span>
+							 <span>A</span>
+							 <a href="#B">B</a>
+							 <a href="#C">C</a>
+							 <a href="#D">D</a>
+							 <a href="#E">E</a>
+							 <span>F</span>
+							 <span>G</span>
+							 <span>H</span>
+							 <span>I</span>
+							 <span>J</span>
+							 <span>K</span>
+							 <span>L</span>
+							 <span>M</span>
+							 <span>N</span>
+							 <span>O</span>
+							 <a href="#P">P</a>
+							 <span>Q</span>
+							 <span>R</span>
+							 <span>S</span>
+							 <span>T</span>
+							 <span>U</span>
+							 <span>V</span>
+							 <span>W</span>
+							 <span>X</span>
+							 <span>Y</span>
+							 <span>Z</span>
+						</div>
+						
+						<div class="pagecenter">
+							<div class="pagetable">
+								<table class="table table-striped table-hover uploadedtable">
+									<tr>
+										<td width="10"></td>
+										<td class="mnumtd">
+											<div class="mnum">1</div>
+										</td>
+										<td class="umanualspics">
+											<a href=""><img alt="Acer 1000 5123 - Ferrari - Turion 64 X2 1.8 GHz manual" src="img/img.jpg"/></a>
+										</td>
+										<td>
+											<a class="mlm" href="#">
+												Acer 1000 5123 Ferrari User Manual (130 pages)
+											</a>
+											<div class="iteminfo">Sunbeam 5833: user manual  |  Brand: <a href="">Acer</a>   |  Category: <a href="">Laptop</a>   |  Size: 26.33 MB</div>
+										</td>
+										<td class="text-right">
+											<a class="btn btn-success btn-xs" href="#" title="Download"><i class="fa fw  fa-download"></i> Download</a>
+											<a class="btn btn-primary btn-xs" href="#" title="Edit"><i class="fa fw fa-pencil"></i></a>
+											<a class="btn btn-danger btn-xs" title="Delete" href="#"><i class="fa fw fa-times"></i></a> 
+										</td>
+										<td width="10"></td>
+									</tr>
+									<tr>
+										<td width="10"></td>
+										
+										<td class="mnumtd">
+											<div class="mnum">2</div>
+										</td>
+										<td class="umanualspics">
+											<a href=""><img alt="Acer 1000 5123 - Ferrari - Turion 64 X2 1.8 GHz manual" src="img/img.jpg"/></a>
+										</td>
+										<td>
+											<a class="mlm" href="#">
+												Acer 1000 5123 Ferrari User Manual (130 pages)
+											</a>
+											<div class="iteminfo">Sunbeam 5833: user manual  |  Brand: <a href="">Acer</a>   |  Category: <a href="">Laptop</a>   |  Size: 26.33 MB</div>
+										</td>
+										<td class="text-right">
+											<a class="btn btn-default btn-xs" href="#" title="Download"><i class="fa fw  fa-download"></i> Download</a>
+											<a class="btn btn-default btn-xs" title="Delete" href="#"><i class="fa fw fa-times"></i></a> 
+											<a class="btn btn-default btn-xs" href="#" title="Edit"><i class="fa fw fa-pencil"></i></a>
+										</td>
+									</tr>
+								</table>
+							</div>
+						</div>
+					</div>
+				</section>
+		</div>
+	
+		<footer>
+			<div class="container-fluid">
+				<div class="row">
+					
+					<div class="col-sm-2">
+						<div class="center-block">
+							<a class="flogo" href=""><img src="img/flogo.png" alt="manuallib footer logo"></a>
+							<div class="copy">&copy; Copyright 2013 ManualsLib Inc. All rights reserved.</div>
+						</div>
+					</div>
+					<div class="col-sm-10">
+						<div class="row">
+							<div class="col-xs-3">
+								<div><a class="flinkh" href="#">About Us</a></div>
+								<ul class="flinklist">
+									<li><a href="#">About Manuals Lib</a></li>
+									<li><a href="#">Our Team</a></li>
+									<li><a href="#">Blog</a></li>
+									<li><a href="#">Sign Up!</a></li>
+									<li><a href="#">Contacts</a></li>
+								</ul>
+							</div>
+							<div class="col-xs-3">
+								<div><a class="flinkh" href="#">Manuals Library</a></div>
+								<ul class="flinklist">
+									<li><a href="#">Searching</a></li>
+									<li><a href="#">Technology</a></li>
+									<li><a href="#">Opportunity</a></li>
+								</ul>
+							</div>
+							<div class="col-xs-2">
+								<div><a class="flinkh" href="#">Brands</a></div>
+								<ul class="flinklist">
+									<li><a href="#">How load to Lib</a></li>
+								</ul>
+							</div>
+							<div class="col-xs-2">
+								<div><a class="flinkh" href="#">Partnership</a></div>
+								<ul class="flinklist">
+									<li><a href="#">For company</a></li>
+									<li><a href="#">Contacts</a></li>
+									<li><a href="#">API</a></li>
+								</ul>
+							</div>
+							<div class="col-xs-2">
+								<div><a class="flinkh" href="#">Disclaimer</a></div>
+							</div>
+						</div>	
+					</div>
+				</div>
+			</div>
+			
+		</footer>
+	</div>
+	
+<!-- Modal -->	
+	<div class="modal fade" id="MYenter" tabindex="-1" role="dialog" aria-hidden="true">
+	  <div class="modal-dialog">
+		
+		<div class="modal-content">
+		  <div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+			<h4 class="modal-title">Login</h4>
+		  </div>
+		  <div class="modal-body">
+			<div class="form-group">
+			  <i class="fa fa-user"></i>
+			  <input type="text" class="form-control" placeholder="Login">
+			</div>
+			
+			<div class="form-group">
+			  <i class="fa fa-key"></i>
+			  <input type="text" class="form-control" placeholder="Password">
+			</div>
+			<div style="text-align:center;">
+				<button type="button" class="btn btn-success btn-block btn-enter">Login to ManualsLib</button>
+				<a class="fbtn" title="Facebook login" href="#"><img alt="Login with Facebook" src="img/fbtn.png" /></a>
+			 </div>
+		  </div>
+		  <div class="modal-footer">
+			<a class="signlink" title="Facebook login" href="#">Don't have an account? Sign up!</a> &nbsp;<i class="fa fa-info-circle ffi"></i><br/>
+			<a class="restore" title="Facebook login" href="#">Restore password</a>
+		  </div>
+		
+		</div><!-- /.modal-content -->
+	  </div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+
+	
+	
+	
+<!-- Modal -->	
+	<div class="modal fade" id="MYeditprofile" tabindex="-1" role="dialog" aria-hidden="true">
+	  <div class="modal-dialog" style="max-width:350px;">
+		
+		<div class="modal-content">
+		  <div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+			<h4 class="modal-title">My profile</h4>
+		  </div>
+		  <div class="modal-body">
+			<div class="form-group">
+			  <label>Your Name</label>
+			  <input type="text" class="form-control" placeholder="Alexey Kos">
+			</div>
+		  </div>
+		  <div class="modal-footer">
+			<div style="text-align:center;">
+				<button type="button" class="btn btn-success"><i class="fa fa-save"></i> Save changes</button>
+			 </div>
+		  </div>
+		
+		</div><!-- /.modal-content -->
+	  </div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+
+
+<!-- Modal -->	
+	<div class="modal fade" id="MYupload" tabindex="-1" role="dialog" aria-hidden="true">
+	  <div class="modal-dialog">
+		
+		<div class="modal-content">
+		  <div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+			<h4 class="modal-title">Upload manual</h4>
+		  </div>
+		  <div class="modal-body">
+			<div class="row">
+				<div class="col-md-6">
+					<a href="#" class="btn-upload tip btn-success" title="Upload manual from local disk">
+						<i class="fa fa-upload"></i>
+						<span>upload from disk</span>
+					</a>
+				</div>
+				<div class="col-md-6">
+					<a href="#" class="btn-upload tip btn-success" title="Upload manual from local disk">
+						<i class="fa fa-cloud-upload"></i>
+						<span>upload from disk</span>
+					</a>
+				</div>
+			</div>
+		  </div>
+		  <div class="modal-footer">
+			<a class="signlink" title="Facebook login" href="#">Why I shoold upload manuals!</a> &nbsp;<i class="fa fa-info-circle ffi"></i><br/>
+		  </div>
+		
+		</div><!-- /.modal-content -->
+	  </div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+	
+	<!-- Modal -->	
+	<div class="modal fade" id="MYphoto" tabindex="-1" role="dialog" aria-hidden="true">
+	  <div class="modal-dialog" style="max-width:300px;">
+		
+		<div class="modal-content">
+		  <div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+			<h4 class="modal-title">Upload photo</h4>
+		  </div>
+		  <div class="modal-body">
+			
+			<img src="img/pic.jpg" alt="user photo" style="width:100%; margin-bottom:10px;">
+			<div class="text-center fled">
+			  <input type="file" title="Search for a photo to upload">
+			</div>
+			
+		  </div>
+		  <div class="modal-footer">
+			<a href="" class="btn btn-success btn-block">Upload photo</a>
+		  </div>
+		
+		</div><!-- /.modal-content -->
+	  </div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+	
+	
+    <!-- javascript
+    ================================================== -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	<script src="js/bootstrap-typeahead.js"></script>
+	<script src="js/jquery.jscrollpane.min.js"></script>
+	<script src="js/jquery.mousewheel.js"></script>
+	
+	<script src="js/bootstrap.file-input.js"></script>
+	
+	<script>
+		$('input[type=file]').bootstrapFileInput();
+	</script>
+	
+	<!-- JS CONFIG -->
+	<script src="js/config.js"></script>
+</body>
+</html>
