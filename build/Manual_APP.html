@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>ManualsLib - Makes it easy to find manuals online!</title>
+	
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!-- !!!!!!!!!!!!!!! itunes !!!!!!!!!!!!!!!! -->
+	<meta name="apple-itunes-app" content="app-id=342792525, app-argument=imdb:///?src=mdot">
+	
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+    <meta content="Search through 700.000 manuals online &amp; and download pdf manuals." name="Description">
+    <meta content=" manuals, instruction manuals, user manuals, service manuals, user guides, pdf manuals, owners manuals, installation guides" name="Keywords">
+	<meta name="author" content="ManualsLib">
+	
+	<link rel="icon" type="image/png" href="favicon.png" />
+	<link rel="apple-touch-icon" href="apple-touch-favicon.png"/>
+
+    <!-- styles -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<!--<link type="text/css" rel="stylesheet" href="js/fancybox2/jquery.fancybox.css">-->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,300,700' rel='stylesheet' type='text/css'>
+	
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	  <script type='text/javascript' src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.7.1/modernizr.min.js"></script>
+	  <script type='text/javascript' src="js/css3-mediaqueries.js"></script>  
+	  <link href="css/bootstrap-ie7.css" rel="stylesheet">
+   <![endif]-->
+		
+</head>
+
+<body class="manualpage">
+
+
+<div id="upsell-banner" class="mobile-upsell banner device-android" data-ad-type="banner" data-ad-campaign="UpsellBanner-generic-home" data-ad-exp="2160" data-ad-ref="" data-app-target="" style="display: block;">
+        <div class="ad-body">
+            <a type="button" class="btn btn-default btn-lg dismiss">&times;</a>
+			<img class="ad-logo" src="../img/mb/168_2.png">
+            <span class="ad-title">Manuals Library</span>
+            <div class="ad-background-rating">
+                <div class="ad-rating" style="width:0;"></div>
+            </div>
+            <span class="ad-price">Free on Google Play</span>
+            <button type="button" class="btn btn-default btn-lg accept">Go to app</button>
+        </div>
+</div>
+
+<style>
+.mobile-upsell {
+    display: none;
+    font-family: sans-serif;
+    font-size: 15px
+}
+
+.mobile-upsell.banner {
+    background-color: #ffffff;
+    color: #000;
+    max-height: 80px;
+    padding: 10px;
+    position: relative;
+    z-index: 2000
+}
+
+.mobile-upsell.banner .ad-body {
+    position: relative;
+    height: 60px
+}
+
+.mobile-upsell.banner .ad-background-rating {
+    background: url(../img/mb/stars-grey.png) no-repeat;
+    display: inline-block;
+    float: left;
+    font-size: 14px;
+    height: 12px;
+    position: absolute;
+    top: 25px;
+    width: 70px
+}
+
+.mobile-upsell.banner .ad-rating {
+    background: url(../img/mb/stars-yellow.png) no-repeat;
+    display: inline-block;
+    float: left;
+    font-size: 14px;
+    height: 12px;
+    position: absolute;
+    top: 0px;
+    width: 60px
+}
+
+.mobile-upsell.banner label {
+    font-size: 11px
+}
+
+.mobile-upsell.banner img.ad-logo {
+    float: left;
+    margin-right: 8px;
+    width: 60px
+}
+.mobile-upsell .accept{
+	padding: 5px 12px 6px;
+	border-color: transparent;
+}
+.mobile-upsell .btn{
+	box-shadow:none;
+}
+
+@media all and (min-width: 360px) {
+    .mobile-upsell.banner .btn-default.accept {
+        background-color: #0277bd;
+        color: #ffffff;
+        margin-top: -16px;
+        position: absolute;
+        right: 0px;
+        top: 50%;
+        font-size: 16px;
+        text-transform: uppercase
+    }
+    .mobile-upsell.banner .ad-title {
+        display: inline-block;
+        float: left;
+        font-size: 14px;
+        font-weight: bold;
+        width: 44%;
+        position: absolute;
+        top: 5px
+    }
+    .mobile-upsell.banner .ad-price {
+        color: #7e7e7e;
+        display: inline-block;
+        float: left;
+        font-size: 13px;
+        position: absolute;
+        top: 40px;
+        width: 44%
+    }
+}
+
+@media all and (max-width: 360px) {
+    .mobile-upsell.banner .btn-default.accept {
+        background-color: #0277bd;
+        color: #ffffff;
+        margin-top: -5px;
+        position: absolute;
+        right: 0px;
+        top: 50%;
+        font-size: 12px;
+        font-size: 4vw;
+        text-transform: uppercase
+    }
+    .mobile-upsell.banner .ad-title {
+        display: inline-block;
+        float: left;
+        font-size: 12px;
+        font-size: 4vw;
+        font-weight: bold;
+        width: 44%;
+        position: absolute;
+        top: 5px
+    }
+    .mobile-upsell.banner .ad-price {
+        color: #7e7e7e;
+        display: inline-block;
+        float: left;
+        font-size: 9px;
+        font-size: 3vw;
+        position: absolute;
+        top: 40px;
+        width: 44%
+    }
+}
+
+.mobile-upsell.banner .btn-default.dismiss {
+    background: none;
+    border: none;
+    color: #bbb;
+    float: left;
+    font-size: 3em;
+    margin-right: 8px;
+    padding: 0
+}
+
+.mobile-upsell.banner .ad-close {
+    display: inline-block;
+    vertical-align: middle
+}
+
+</style>
+
+
+
+</body>
+</html>
